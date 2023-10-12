@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "paymentAddress": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#payment-address",
+    "displayName": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#displayName",
+    "DID": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#DID",
+    "language": "https://datahub.io/core/language-codes/r/0.html",
+    "justification": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#justification",
+    "URL": "https://schema.org/url",
+    "externalUpdates": {
+      "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#externalUpdate",
+      "@type": "@id"
+    }
+  },
+  "authors": [
+    {
+      "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author",
+      "paymentAddress": "addr_test1qz9tz5zaq9q37ulgctt3mf3a4254reudqd57lcjxhxtnxrdxpwqj6geuxs86fkqfrmp67mf8dxje8apnt5xqavzjclgq4d4k0g",
+      "displayName": "Ryan Williams",
+      "DID": "did:example:1234567890abcdef"
+    }
+  ],
+  "language": "en",
+  "justification": "I will be a really good DRep"
+}
