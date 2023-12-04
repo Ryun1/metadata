@@ -14,10 +14,14 @@ I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing t
 - Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/ga.jsonld
 
 #### New constitution Metadata
-- [ga.jsonld](./ga2.jsonld)
-- Hash: `0330376701702b16803f259d6a6e6e69d87a0cc1e03996f7071c01339ae9c513`
+- [ga2.jsonld](./ga2.jsonld)
+- Hash: `326267a12f1d8f0db5584cc332b6409d53d3c1ed44b8050718e28a36484cad32`
 - Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/ga2.jsonld
 
+#### New Constitution
+- [c.txt](./c.txt)
+- Hash: `328b76f58bb5d695dc4c2122caafd9269cb9ef8717a5c4ba86861924c3ac4a17`
+- Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/c.txt
 
 #### DRep
 - todo
