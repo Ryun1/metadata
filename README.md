@@ -13,6 +13,12 @@ I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing t
 - Hash: `1726900bdc2a06d696c3130f12c8f0d3aecc566a9d4154a2048269bb4a84b012`
 - Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/ga.jsonld
 
+#### New constitution Metadata
+- [ga.jsonld](./ga2.jsonld)
+- Hash: `0330376701702b16803f259d6a6e6e69d87a0cc1e03996f7071c01339ae9c513`
+- Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/ga2.jsonld
+
+
 #### DRep
 - todo
 

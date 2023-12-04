@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "hash-algorithm": "blake2b-256",
+    "authors": {
+      "@container": "@set",
+      "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author"
+    },
+    "body": {
+      "@context": {
+        "justification": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#justification",
+        "external-updates": {
+          "@container": "@set",
+          "@type": "https://schema.org/WebPage"
+        }
+      }
+    },
+    "paymentAddress": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#payment-address",
+    "displayName": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#displayName",
+    "DID": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#DID",
+    "language": "https://datahub.io/core/language-codes/r/0.html",
+    "URL": "https://schema.org/url",
+    "externalUpdates": {
+      "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#externalUpdate",
+      "@type": "@id"
+    }
+  },
+  "hash-algorithm": "blake2b-256",
+  "authors": [
+    {
+      "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author",
+      "paymentAddress": "addr_test1qqqr4kyu8chd36vd9ndjq7ha5wjfeaea0hmselm0xh26ttahzda4u2nzd6ld28hsyctf9vsul26shuznaxylynt97j8snfzz6t",
+      "displayName": "Ryan Williams 😎",
+      "DID": "did:example:1234567890abcdef"
+    }
+  ],
+  "body": {
+    "justification": "I want to have my own Sancho constitution!!"
+  },
+  "language": "en"
+}
