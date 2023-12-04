@@ -10,7 +10,7 @@ I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing t
 
 #### Governance Action
 - [ga.jsonld](./ga.jsonld)
-- Hash: `6f4ccf14a00a3986a0e5e5bbefb1cf7135fa861686e9edbe4e08bc992835704b`
+- Hash: `1726900bdc2a06d696c3130f12c8f0d3aecc566a9d4154a2048269bb4a84b012`
 - Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/ga.jsonld
 
 #### DRep
