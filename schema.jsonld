@@ -1,14 +1,66 @@
 {
   "@context": {
-    "paymentAddress": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#payment-address",
-    "displayName": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#displayName",
-    "DID": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#DID",
-    "language": "https://datahub.io/core/language-codes/r/0.html",
-    "justification": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#justification",
-    "URL": "https://schema.org/url",
-    "externalUpdates": {
-      "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#externalUpdate",
-      "@type": "@id"
+    "hash-algorithm": "blake2b-256",
+    "authors": {
+      "@container": "@set",
+      "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author"
+    },
+    "body": {
+      "@context": {
+        "justification": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#justification",
+        "external-updates": {
+          "@container": "@set",
+          "@type": "https://schema.org/WebPage"
+        }
+      }
     }
-  }
+  },
+  "type": "object",
+  "properties": {
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "type": "string",
+            "const": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author"
+          },
+          "paymentAddress": {
+            "type": "string"
+          },
+          "displayName": {
+            "type": "string"
+          },
+          "DID": {
+            "type": "string"
+          }
+        },
+        "required": ["@type", "paymentAddress", "displayName"]
+      }
+    },
+    "language": {
+      "type": "string"
+    },
+    "justification": {
+      "type": "string"
+    },
+    "externalUpdates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "type": "string",
+            "const": "https://schema.org/WebPage"
+          },
+          "URL": {
+            "type": "string"
+          }
+        },
+        "required": ["@type", "URL"]
+      }
+    }
+  },
+  "required": ["authors", "language", "justification", "externalUpdates"]
 }
