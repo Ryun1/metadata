@@ -1,6 +1,6 @@
 {
     "@context": {
-      "hash-algorithm": "",
+      "hash-algorithm": "black2b-256",
       "authors": {
         "@container": "@set",
         "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author"
