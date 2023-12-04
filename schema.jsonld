@@ -1,6 +1,6 @@
 {
   "@context": {
-    "hash-algorithm": "blake2b-256",
+    "hash-algorithm": "",
     "authors": {
       "@container": "@set",
       "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author"
@@ -13,10 +13,44 @@
           "@type": "https://schema.org/WebPage"
         }
       }
+    },
+    "paymentAddress": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#payment-address",
+    "displayName": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#displayName",
+    "DID": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#DID",
+    "language": "https://datahub.io/core/language-codes/r/0.html",
+    "URL": "https://schema.org/url",
+    "externalUpdates": {
+      "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#externalUpdate",
+      "@type": "@id"
     }
   },
   "type": "object",
   "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "justification": {
+          "type": "string"
+        },
+        "external-updates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "@type": {
+                "type": "string",
+                "const": "https://schema.org/WebPage"
+              },
+              "URL": {
+                "type": "string"
+              }
+            },
+            "required": ["@type", "URL"]
+          }
+        }
+      },
+      "required": ["justification", "external-updates"]
+    },
     "authors": {
       "type": "array",
       "items": {
@@ -41,26 +75,7 @@
     },
     "language": {
       "type": "string"
-    },
-    "justification": {
-      "type": "string"
-    },
-    "externalUpdates": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "@type": {
-            "type": "string",
-            "const": "https://schema.org/WebPage"
-          },
-          "URL": {
-            "type": "string"
-          }
-        },
-        "required": ["@type", "URL"]
-      }
     }
   },
-  "required": ["authors", "language", "justification", "externalUpdates"]
+  "required": ["body", "authors", "language"]
 }
