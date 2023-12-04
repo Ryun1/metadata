@@ -24,7 +24,6 @@
       "@type": "@id"
     }
   },
-  "hash-algorithm": "blake2b-256",
   "authors": [
     {
       "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author",
