@@ -28,7 +28,7 @@
     {
       "@type": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/common-properties.jsonld#author",
       "paymentAddress": "addr_test1qqqr4kyu8chd36vd9ndjq7ha5wjfeaea0hmselm0xh26ttahzda4u2nzd6ld28hsyctf9vsul26shuznaxylynt97j8snfzz6t",
-      "displayName": "Ryan Williams 😎",
+      "displayName": "Ryan Williams",
       "DID": "did:example:1234567890abcdef"
     }
   ],
