@@ -28,12 +28,14 @@ Please note, due to the base nature of CIP-100, it has very few properties/field
 #### Governance Action
 - [ga.jsonld](./cip100/ga.jsonld)
 - Hash: `fcfa077e00ff4e2afdda9380614495be3053c046a7b2a6a691cde1ca460db03b`
-- Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld
+- Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld
+- IPFS hosted: ipfs://Qmb5K1kFgNZwRbP3VbezWitpevcnNBrF3P6JcFdCFtMSrb
 
 #### DRep Registration
 - [reg.jsonld](./cip100/reg.jsonld)
 - Hash: `4e76197328bbe21586b46d23ccb15ac1da83149c6b7771448f32add84c1e645f`
-- Accessible URL: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/reg.jsonld
+- Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/reg.jsonld
+- IPFS hosted: ipfs://QmcfdhYp2itxvjF2cTbCSDqNPZ56Q8VdYPjy5FGiHaeRTe
 
 ### [CIP-108 Examples](./cip108/)
 
