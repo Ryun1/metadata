@@ -19,6 +19,7 @@ Starting with Governance Action metadata anchors with [CIP-0108? | Governance Me
 
 ## Examples
 
+I used [this JSON-LD playground](https://json-ld.org/playground/) to produce the canonized versions of the metadata plain text to be used to hash.
 I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing tool to create the hashes.
 
 ### [CIP-100 Examples](./cip100/)
@@ -27,16 +28,26 @@ Please note, due to the base nature of CIP-100, it has very few properties/field
 
 #### Governance Action
 - [ga.jsonld](./cip100/ga.jsonld)
-- Hash: `fcfa077e00ff4e2afdda9380614495be3053c046a7b2a6a691cde1ca460db03b`
+- Hash: `d57d30d2d03298027fde6d1c887c65da2b98b7ddefab189dcadab9a1d6792fee`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld
-- IPFS hosted: ipfs://Qmb5K1kFgNZwRbP3VbezWitpevcnNBrF3P6JcFdCFtMSrb
+- IPFS hosted: https://ipfs.io/ipfs/Qmb5K1kFgNZwRbP3VbezWitpevcnNBrF3P6JcFdCFtMSrb
 
 #### DRep Registration
 - [reg.jsonld](./cip100/reg.jsonld)
-- Hash: `4e76197328bbe21586b46d23ccb15ac1da83149c6b7771448f32add84c1e645f`
+- Hash: `bc88b294572f45f6b450514c17fe5fbaba492c81de3177ab21a1b4b1cb8dafd1`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/reg.jsonld
-- IPFS hosted: ipfs://QmcfdhYp2itxvjF2cTbCSDqNPZ56Q8VdYPjy5FGiHaeRTe
+- IPFS hosted: https://ipfs.io/ipfs/QmcfdhYp2itxvjF2cTbCSDqNPZ56Q8VdYPjy5FGiHaeRTe
 
 ### [CIP-108 Examples](./cip108/)
 
-- todo
+#### Treasury Withdrawal
+- [treasury-withdrawal.jsonld](./cip108/treasury-withdrawal.jsonld)
+- Hash: `931f1d8cdfdc82050bd2baadfe384df8bf99b00e36cb12bfb8795beab3ac7fe5`
+- Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip108/treasury-withdrawal.jsonld
+- IPFS hosted: https://ipfs.io/ipfs/QmdUDw7EsEyT9TCiCik1z1W6jakLhL5HWcZ87j2jCnGGYd?filename=no-confidence.jsonld
+
+#### No Confidence
+- [no-confidence.jsonld](./cip108/no-confidence.jsonld)
+- Hash: `f5da6b55e1b24e657984a99b1155c307b24284472d409ab3ea8871f8ca1d3194`
+- Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip108/no-confidence.jsonld
+- IPFS hosted: https://ipfs.io/ipfs/QmdUDw7EsEyT9TCiCik1z1W6jakLhL5HWcZ87j2jCnGGYd?filename=no-confidence.jsonld
