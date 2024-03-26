@@ -44,7 +44,7 @@ Please note, due to the base nature of CIP-100, it has very few properties/field
 - [treasury-withdrawal.jsonld](./cip108/treasury-withdrawal.jsonld)
 - Hash: `931f1d8cdfdc82050bd2baadfe384df8bf99b00e36cb12bfb8795beab3ac7fe5`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip108/treasury-withdrawal.jsonld
-- IPFS hosted: https://ipfs.io/ipfs/QmdUDw7EsEyT9TCiCik1z1W6jakLhL5HWcZ87j2jCnGGYd?filename=no-confidence.jsonld
+- IPFS hosted: https://ipfs.io/ipfs/QmcYqf12eoLzyV6A8JeVQw17diE1GU2TFEuLxK2X8EgYDW?filename=treasury-withdrawal.jsonld
 
 #### No Confidence
 - [no-confidence.jsonld](./cip108/no-confidence.jsonld)
