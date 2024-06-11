@@ -52,17 +52,17 @@
   },
   "body": {
     "abstract": {
-      "@value": "Rick would really really like to take some treasury money to buy a new Lambo"
+      "@value": "Withdraw 200000000000 ADA from the treasury so Ryan can buy an island."
     },
     "motivation": {
-      "@value": "I will sell the ada"
+      "@value": "The current problem is that Ryan does not have an island, but he would really like an island."
     },
     "rationale": {
-      "@value": "lsajhiof"
+      "@value": "With these funds from the treasury will be sold for **cold hard cash**, this cash can then be used to purchase an island for Ryan. An example of this island is provided in the references."
     },
     "references": [],
     "title": {
-      "@value": "Rick wants to buy a Lambo!"
+      "@value": "Buy Ryan a island"
     }
   }
 }
