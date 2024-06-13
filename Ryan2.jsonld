@@ -51,7 +51,7 @@
   },
   "body": {
     "bio": {
-      "@value": "I really would like to own an island.\ntesting \\n\n\\n testing\nhellooooooo"
+      "@value": "I really would like to own an island."
     },
     "dRepName": {
       "@value": "Ryan"
@@ -59,6 +59,16 @@
     "email": {
       "@value": ""
     },
-    "references": []
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Label"
+        },
+        "uri": {
+          "@value": "https://x.com/Ryun1_"
+        }
+      }
+    ]
   }
 }
