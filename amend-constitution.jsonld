@@ -1,0 +1,57 @@
+{
+    "@context": {
+      "@language": "en-us",
+      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+      "hashAlgorithm": "CIP100:hashAlgorithm",
+      "body": {
+        "@id": "CIP108:body",
+        "@context": {
+          "references": {
+            "@id": "CIP108:references",
+            "@container": "@set",
+            "@context": {
+              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+              "Other": "CIP100:OtherReference",
+              "label": "CIP100:reference-label",
+              "uri": "CIP100:reference-uri",
+              "referenceHash": {
+                "@id": "CIP108:referenceHash",
+                "@context": {
+                  "hashDigest": "CIP108:hashDigest",
+                  "hashAlgorithm": "CIP100:hashAlgorithm"
+                }
+              }
+            }
+          },
+          "title": "CIP108:title",
+          "abstract": "CIP108:abstract",
+          "motivation": "CIP108:motivation",
+          "rationale": "CIP108:rationale"
+        }
+      },
+      "authors": {
+        "@id": "CIP100:authors",
+        "@container": "@set",
+        "@context": {
+          "name": "http://xmlns.com/foaf/0.1/name",
+          "witness": {
+            "@id": "CIP100:witness",
+            "@context": {
+              "witnessAlgorithm": "CIP100:witnessAlgorithm",
+              "publicKey": "CIP100:publicKey",
+              "signature": "CIP100:signature"
+            }
+          }
+        }
+      }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+      "title": "Lets get the new constitution through - lower the DRep threshold!!",
+      "abstract": "A Constitution has been drafted and agreed by delegates at the Constitutional Convention in Buenos Aires. The new Constitution has been proposed on chain through a New Constitution Governance Action. However, an anonymous 36% of DRep stake has voted “No” on the proposal for several weeks in a row. No DRep that has voted no will come forward to explain why they have voted against the Constitution.",
+      "motivation": "A noted crypto influencer, CarDoggo, received upwards of $10M USD from Catalyst Fund 12 on the promise to build on a successful meme coin marketing campaign to attract new users to Cardano. After receiving the funds, it was revealed that the supporting analytics data had been faked, and CarDoggo had in fact invested all of the funds in Solana. They must be held accountable for their actions, we must fund a lawsuit against them.",
+      "rationale": "By lowering the Update Constitution DRep threshold (dvtUpdateToConstitution) from 75% to 60%. We will be able to get the final constitution ratified and enacted."
+    },
+    "authors": [ ]
+  }
