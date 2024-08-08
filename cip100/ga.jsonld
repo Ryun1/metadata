@@ -45,15 +45,15 @@
     },
     "hashAlgorithm": "blake2b-256",
     "authors": [
-      { "name": "Ryan Williams", "witness": { "witnessAlgorithm": "ed25519", "publicKey": "46e4db7f87497ba232977ccd591b3d040316b155e8c60e3ea49176c03fa269de", "signature": "abcd"}}
+      { "name": "Ryan Williams", "witness": { "witnessAlgorithm": "ed25519", "publicKey": "2af88a521691cb317d5a8197024fdd1942c0bfab4760ecb81e74cf6b109b3138", "signature": "837e33683c9f03f66835d768b980251956ae589908a3e88f271b2d34806918dc99bb9d80010f67c25aa6a8a4253b1f2849aa191dacc63c881de1764c24cdf50c"}}
     ],
     "body": {
       "references": [
         { "@type": "other", "label": "Github", "uri": "https://github.com/Ryun1" }
       ],
-      "comment": "Hello! I want to take 100 ADA from the treasury to buy milk this is an example off-chain metadata which follows the CIP100 standard.",
+      "comment": "This governance action aims to further Ryan's agenda!!",
       "externalUpdates": [
         { "title": "Twitter", "uri": "https://twitter.com/Ryun1_" }
       ]
     }
-  }
+}

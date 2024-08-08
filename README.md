@@ -14,10 +14,13 @@ This defines best practices and generic fields which can be used for anchors.
 CIP-100 was designed to be expanded upon by downstream CIPs.
 These CIPs will extend the property vocabulary to cater to different types ot metadata anchor.
 
-
 ## Examples
 
 I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing tool to create the hashes.
+
+I used [JSON-LD Playground](https://json-ld.org/playground/) to create canonized versions of `body` to create `author` witnesses.
+
+I used [Ed25519 Online Tool](https://cyphr.me/ed25519_tool/ed.html) to create witnesses in `authors` field.
 
 ### [CIP-100 Examples](./cip100/)
 
@@ -26,13 +29,13 @@ Please note, due to the base nature of CIP-100, it has very few properties/field
 #### Governance Action
 
 - [ga.jsonld](./cip100/ga.jsonld)
-- Hash: `0af718ceab411104222cb8a3a214ca4b6b9495901e17dbf925e8f81be4cf1109`
+- Hash: `1805dc601b3b6fe259c646a94edb14d52534c09a0ee51e5ac502fa823b6a510c`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld
 
 #### DRep Registration
 
 - [reg.jsonld](./cip100/reg.jsonld)
-- Hash: `1ab880ed93090167ae3bacb632ce438a75749139132f53506c89fa47b1380380`
+- Hash: `97d8b550056ee9e88c46784a89cd365332adc41b63fc24270780069ebd05f53a`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/reg.jsonld
 
 ### [CIP-108 Examples](./cip108/)
