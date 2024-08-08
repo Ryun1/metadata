@@ -14,12 +14,9 @@ This defines best practices and generic fields which can be used for anchors.
 CIP-100 was designed to be expanded upon by downstream CIPs.
 These CIPs will extend the property vocabulary to cater to different types ot metadata anchor.
 
-The Governance Metadata Working Group has been running workshops to start development on these downstream CIPs.
-Starting with Governance Action metadata anchors with [CIP-0108? | Governance Metadata - Governance Actions](https://github.com/cardano-foundation/CIPs/pull/632).
 
 ## Examples
 
-I used [this JSON-LD playground](https://json-ld.org/playground/) to produce the canonized versions of the metadata plain text to be used to hash.
 I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing tool to create the hashes.
 
 ### [CIP-100 Examples](./cip100/)
@@ -27,27 +24,26 @@ I used [this Blake2b-256](https://toolkitbay.com/tkb/tool/BLAKE2b_256) hashing t
 Please note, due to the base nature of CIP-100, it has very few properties/fields so it between examples things don't change too much.
 
 #### Governance Action
+
 - [ga.jsonld](./cip100/ga.jsonld)
-- Hash: `d57d30d2d03298027fde6d1c887c65da2b98b7ddefab189dcadab9a1d6792fee`
+- Hash: `0af718ceab411104222cb8a3a214ca4b6b9495901e17dbf925e8f81be4cf1109`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/ga.jsonld
-- IPFS hosted: https://ipfs.io/ipfs/Qmb5K1kFgNZwRbP3VbezWitpevcnNBrF3P6JcFdCFtMSrb
 
 #### DRep Registration
+
 - [reg.jsonld](./cip100/reg.jsonld)
-- Hash: `bc88b294572f45f6b450514c17fe5fbaba492c81de3177ab21a1b4b1cb8dafd1`
+- Hash: `1ab880ed93090167ae3bacb632ce438a75749139132f53506c89fa47b1380380`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip100/reg.jsonld
-- IPFS hosted: https://ipfs.io/ipfs/QmcfdhYp2itxvjF2cTbCSDqNPZ56Q8VdYPjy5FGiHaeRTe
 
 ### [CIP-108 Examples](./cip108/)
 
 #### Treasury Withdrawal
+
 - [treasury-withdrawal.jsonld](./cip108/treasury-withdrawal.jsonld)
-- Hash: `931f1d8cdfdc82050bd2baadfe384df8bf99b00e36cb12bfb8795beab3ac7fe5`
+- Hash: `633e6f25fea857662d1542921f1fa2cab5f90a9e4cb51bdae8946f823e403ea8`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip108/treasury-withdrawal.jsonld
-- IPFS hosted: https://ipfs.io/ipfs/QmcYqf12eoLzyV6A8JeVQw17diE1GU2TFEuLxK2X8EgYDW?filename=treasury-withdrawal.jsonld
 
 #### No Confidence
 - [no-confidence.jsonld](./cip108/no-confidence.jsonld)
-- Hash: `f5da6b55e1b24e657984a99b1155c307b24284472d409ab3ea8871f8ca1d3194`
+- Hash: `f95826679a0097b5132f0af398676402e77bce0cf2d08ca7d0ffe1952d4f6872`
 - Github hosted: https://raw.githubusercontent.com/Ryun1/metadata/main/cip108/no-confidence.jsonld
-- IPFS hosted: https://ipfs.io/ipfs/QmdUDw7EsEyT9TCiCik1z1W6jakLhL5HWcZ87j2jCnGGYd?filename=no-confidence.jsonld
