@@ -48,10 +48,10 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "abstract": "eqrqr",
-    "motivation": "sadfsdfs",
-    "rationale": "fsdf",
+    "abstract": "Bootstrapping phase is boring, lets leave",
+    "motivation": "The bootstrapping is boring and the treasury cannot be accessed - so Ryan can't buy an island.",
+    "rationale": "Hardforking into protocol version 10 would move the chain into full governance where Ryan could use a treasury action to get ada to buy an island with.",
     "references": [],
-    "title": "asfsaf"
+    "title": "Lets hardfork out of bootstrapping!!"
   }
 }
