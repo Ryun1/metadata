@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "doNotList": "CIP119:doNotList",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820492d5d84f4cc4cf31231cd26285ee398ded94c590509bc0c87424a9b5285db28"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583900ff07597542fd5a40f38b9528940134dea546f69797b400952b35b0d272715e17c335384378239b830eca11de0f76f436c231337395a4acdfa166686173686564f458445665726966792044526570206472657031396d6b6a666d71306e6a63736d306637337a3833666e3866366c3077396438617367756833796c79647a377475757873767a735840e9549ee4b4612c7a54adbc010db57a67fbbe8440ed79e28065ede69cdbd1c5de5ab4248fb1bd0addb40921f7a16fc26091348390aa9e6f09af2d980c487fb207"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": {
+      "@value": "false"
+    },
+    "givenName": {
+      "@value": "Ryan!!"
+    },
+    "motivations": {
+      "@value": "Empty"
+    },
+    "objectives": {
+      "@value": "Empty"
+    },
+    "paymentAddress": {
+      "@value": "addr_test1qrlswkt4gt745s8n3w2j39qpxn0223hkj7tmgqy49v6mp5njw90p0se48pphsgumsv8v5yw7pam0gdkzxyeh89dy4n0sx68luz"
+    },
+    "qualifications": {
+      "@value": "Empty"
+    },
+    "references": []
+  }
+}
