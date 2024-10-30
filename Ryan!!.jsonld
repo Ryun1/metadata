@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -11,8 +12,8 @@
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-            "Identity": "CIP100:IdentityReference",
-            "Link": "CIP100:LinkReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -51,19 +52,26 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
-    "givenName": "Ryan!!",
-    "motivations": "Owning a island would be really cool",
-    "objectives": "I wont to buy an island",
-    "paymentAddress": "addr_test1qrlswkt4gt745s8n3w2j39qpxn0223hkj7tmgqy49v6mp5njw90p0se48pphsgumsv8v5yw7pam0gdkzxyeh89dy4n0sx68luz",
-    "qualifications": "- I like islands",
-    "references": [
-      {
-        "@type": "Other",
-        "label": "Label",
-        "uri": "https://github.com/Ryun1"
-      }
-    ]
+    "doNotList": false,
+    "givenName": {
+      "@value": "Ryan!!"
+    },
+    "motivations": {
+      "@value": ""
+    },
+    "objectives": {
+      "@value": ""
+    },
+    "paymentAddress": {
+      "@value": ""
+    },
+    "qualifications": {
+      "@value": ""
+    },
+    "references": []
   }
 }
