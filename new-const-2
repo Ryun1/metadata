@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "We propose a new constitution that has been ratified by Ryan",
+    "motivation": "The old interim constitution was not good enough and it did not protect Ryan enough",
+    "rationale": "Our new constitution ensures that **Ryan** gets his island there has been a lot of votes for Ryan's constitution.",
+    "references": [
+     	    {
+    		"@type": "Other",
+    		"label": "Group image from workshop",
+    		"uri": "https://workshop-image-1.png"
+	    },
+     	    {
+    		"@type": "Other",
+    		"label": "Voting Results Transaction",
+    		"uri": "https://cardanoscan.io/transaction/da76ee46ba04bc0463b536909f50eda1b59ad6b90c28ce79290386487f344906"
+	    },
+     	    {
+    		"@type": "Other",
+    		"label": "Voting Results Auditing Instructions",
+    		"uri": "https://some-tool-or-instructions.com"
+	    },
+     	    {
+    		"@type": "Other",
+    		"label": "Raw Votes File",
+    		"uri": "https://all-the-votes.csv"
+	    },
+     	    {
+    		"@type": "Other",
+    		"label": "Ryan",
+    		"uri": "https://github.com/Ryun1"
+	    }
+ ],
+    "title": "Ryan's New Constitution 📜"
+  }
+}
