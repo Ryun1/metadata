@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "We propose a new constitution for Cardano that properly protects Ryan",
+    "motivation": "The old interim constitution was not good enough!!",
+    "rationale": "Our new constitution ensures that **Ryan** gets his island.",
+    "references": [
+     	    {
+    		"@type": "Other",
+    		"label": "CIP-0122",
+    		"uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122"
+	    },
+	    {
+    		"@type": "Other",
+    		"label": "CIP-0123",
+    		"uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123"
+	    },
+	    {
+    		"@type": "Other",
+    		"label": "CIP-0127",
+    		"uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127"
+	    },
+	    {
+    		"@type": "Other",
+    		"label": "CIP-0135",
+    		"uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135"
+	    },
+	    {
+    		"@type": "Other",
+    		"label": "Full List of Ledger Fixes for Protocol Version 10",
+    		"uri": "https://github.com/IntersectMBO/cardano-ledger/issues/4572"
+	    },
+	    {
+    		"@type": "Other",
+		"label": "RIPEMD-160 hashing",
+    		"uri": "https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf"
+	    },
+	    {
+    		"@type": "Other",
+		"label": "Overview of the Plutus Primitve Benchmarking Process",
+    		"uri": "https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf"
+	    },
+	    {
+    		"@type": "Other",
+		"label": "Generating and Updating the Plutus Cost Model",
+    		"uri": "https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md"
+	    }
+ ],
+    "title": "Ryan's Constitution"
+  }
+}
