@@ -1,0 +1,67 @@
+{
+    "@context": {
+      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+      "hashAlgorithm": "CIP100:hashAlgorithm",
+      "body": {
+        "@id": "CIP108:body",
+        "@context": {
+          "references": {
+            "@id": "CIP108:references",
+            "@container": "@set",
+            "@context": {
+              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+              "Other": "CIP100:OtherReference",
+              "label": "CIP100:reference-label",
+              "uri": "CIP100:reference-uri",
+              "referenceHash": {
+                "@id": "CIP108:referenceHash",
+                "@context": {
+                  "hashDigest": "CIP108:hashDigest",
+                  "hashAlgorithm": "CIP100:hashAlgorithm"
+                }
+              }
+            }
+          },
+          "title": "CIP108:title",
+          "abstract": "CIP108:abstract",
+          "motivation": "CIP108:motivation",
+          "rationale": "CIP108:rationale"
+        }
+      },
+      "authors": {
+        "@id": "CIP100:authors",
+        "@container": "@set",
+        "@context": {
+          "did": "@id",
+          "name": "http://xmlns.com/foaf/0.1/name",
+          "witness": {
+            "@id": "CIP100:witness",
+            "@context": {
+              "witnessAlgorithm": "CIP100:witnessAlgorithm",
+              "publicKey": "CIP100:publicKey",
+              "signature": "CIP100:signature"
+            }
+          }
+        }
+      }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+      "abstract": "This is a test. Lets see if this is rendered correctly",
+      "motivation": "I've never used CIP-0108 before",
+      "rationale": "It is important to me",
+      "references": [],
+      "title": "Carlos' test 😎"
+    },
+    "authors": [
+      {
+        "name": "CLR",
+        "witness": {
+          "witnessAlgorithm": "ed25519",
+          "publicKey": "b5069cb81dccab4e5350cbe2b5030b63c5d297e39570768bd5e163b949e43437",
+          "signature": "cd17c4c4b4b43c6231db6d7e94c4871ce30719886ed7b7037dcbe8b21b2af12c1fd5a60305d35509cda6c263e922341318efec2d98da2104727aafb1b316830f"
+        }
+      }
+    ]
+  }
