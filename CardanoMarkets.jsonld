@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "CardanoMarkets",
+    "motivations": "Would love to wake to the day when Cardano is truly the financial operating system of the world",
+    "objectives": "Cardano Markets aims to be the voice of investors in the Cardano ecosystem. This means any governance related actions that may impact(positively or not) any $ADA and token holders, Cardano Markets will lend an point of view on it.",
+    "paymentAddress": "addr1q8zl2xc0x9n3ry487wh5d547adpkh4dck6g9xr33ul780uppuf7kz8aywegs8cj825c9ahnq8k758z5lk5z6hfk5at2sfysqk5",
+    "qualifications": "Invested in Cardano ecosystem since 2019.\nDay traded on World Street for a short 2 years.\nBeliever in Blockchain Tech and ideals\nCurrently Senior Technical Program Manager for one of the revolutionary companies out there.\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X formerly Twitter",
+        "uri": "https://x.com/cardano_markets"
+      }
+    ]
+  }
+}
