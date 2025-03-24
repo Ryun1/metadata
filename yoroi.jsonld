@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Yoroi W₳llet",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": ""
+    },
+    "motivations": "Yoroi Wallet is committed to serving the community by developing new features, providing consistent upgrades, and maintaining its quality of services to meet the needs of Cardano users.\n\nWith governance becoming increasingly important to Cardano’s sustainability, Yoroi seeks to add value and empower users to participate by allowing them to easily delegate their stake to Yoroi as their selected DRep if they choose to do so. By becoming a selected DRep, Yoroi strives to earnestly represent the voting opinions of its users and put the power of the network in their hands.\n",
+    "objectives": "The Cardano blockchain has transitioned into a fully decentralized and distributed network that is governed by its community of users, developers, and other stakeholders.\n\n Yoroi Wallet plays an integral role in Cardano, enabling users to send, receive, store, and stake ADA, connecting them to interact with the most widely adopted applications in the Cardano ecosystem, and now getting involved with network governance.\n\nBy joining as a DRep, Yoroi aims to make it more convenient for users to engage and participate in Cardano’s governance processes and further enhance its status as a trusted representative serving the community.",
+    "qualifications": "Launched in August 2018, Yoroi is open-source and the first light wallet developed for the Cardano community. With over a million users across mobile and desktop platforms and a plethora of user features, it has become a go-to wallet for users looking to seamlessly connect and transact with popular dApps in the Cardano ecosystem and other users.\n\nConsistent in its commitment to delivering a top-notch user experience, Yoroi regularly unveils new user features and enables simple access to staking delegation, governance, Cardano native assets, fiat on/off-ramps, and a lot more. It also ranks at the top of developer activity charts among open-source Cardano products, highlighting the devotion of its developers.\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Yoroi's X account",
+        "uri": "https://x.com/YoroiWallet"
+      }
+    ]
+  }
+}
