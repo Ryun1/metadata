@@ -63,7 +63,7 @@
     "givenName": "Yoroi W₳llet",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": ""
+      "contentUrl": "https://raw.githubusercontent.com/Ryun1/metadata/refs/heads/main/download.png"
     },
     "motivations": "Yoroi Wallet is committed to serving the community by developing new features, providing consistent upgrades, and maintaining its quality of services to meet the needs of Cardano users.\n\nWith governance becoming increasingly important to Cardano’s sustainability, Yoroi seeks to add value and empower users to participate by allowing them to easily delegate their stake to Yoroi as their selected DRep if they choose to do so. By becoming a selected DRep, Yoroi strives to earnestly represent the voting opinions of its users and put the power of the network in their hands.\n",
     "objectives": "The Cardano blockchain has transitioned into a fully decentralized and distributed network that is governed by its community of users, developers, and other stakeholders.\n\n Yoroi Wallet plays an integral role in Cardano, enabling users to send, receive, store, and stake ADA, connecting them to interact with the most widely adopted applications in the Cardano ecosystem, and now getting involved with network governance.\n\nBy joining as a DRep, Yoroi aims to make it more convenient for users to engage and participate in Cardano’s governance processes and further enhance its status as a trusted representative serving the community.",
